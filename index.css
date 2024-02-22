@@ -134,9 +134,10 @@ nav{
 }
 
 .about-me{
-    display: flex;
-    justify-content: center;
-    margin: 5% 22%;
+    margin: 5% 12%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 30px;
 }
 
 .left-about{
@@ -227,7 +228,7 @@ nav{
 
 .services-card{
     color: white;
-    margin: 5% 20%;
+    margin: 5% 12%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     gap: 30px;
@@ -305,7 +306,7 @@ nav{
 
 #portfolio{
     display: grid;
-    margin: 5% 20%;
+    margin: 5% 12%;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     gap: 30px;
     color: white;
@@ -348,7 +349,7 @@ nav{
 
 #contact{
     display: grid;
-    margin: 5% 20%;
+    margin: 5% 12%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     text-align: center;
@@ -378,5 +379,189 @@ nav{
     font-family: 'Poor Story', system-ui;
 }
 
+
+
+
+@media (max-width: 1669px){
+
+
+    nav{
+        margin-left: -200px;
+    }
+
+
+    #container{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .about-me{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .social-networks{
+        margin-left: 280px;
+    }
+
+
+
+}
+
+@media (max-width:1430px){
+
+    
+    #container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .about-me{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .social-networks{
+        margin-left: 200px;
+    }
+
+}
+
+
+@media (max-width:1227px){
+
+    
+    #container{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .about-me{
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .social-networks{
+        margin-left: 120px;
+    }
+
+}
+
+@media (max-width:1087px){
+
+    .logo{
+        margin-right: 20px;
+        margin-top: -20%;
+    }
+
+    .menu ul li{
+        margin-left: 320px;
+        margin-top: 25px;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-container{
+       margin-top: 10%;
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-about{
+        width: 51%;
+    }
+
+    .right-about{
+        margin-top: 10%;
+    }
+    .right-about button{
+        margin-top: 7%;
+        margin-bottom: 3%;
+    }
+
+}
+
+
+@media (max-width:580px){
+
+    .left-about{
+        box-shadow: none;
+    }
+
+}
+
+
+@media (max-width:400px){
+
+    .logo{
+        margin: 0 0 220px 200px;
+    }
+    .menu{
+        margin-left: 60px;
+    }
+
+    .menu ul li{
+        margin-left: -5px;
+        text-align: center;
+    }
+
+
+
+    .left-container h1{
+        font-size: 35px;
+    }
+    .left-container p{
+        font-size: 14px;
+    }
+    .left-container button{
+        font-size: 17px;
+    }
+    
+
+    .right-container{
+        padding: 10px;
+    }
+
+    .right-container img{
+        width: 330px;
+        
+    }
+
+    .about-me{
+        margin-left: -10px;
+    }
+
+    .right-about p{
+        margin-left: 20px;
+    }
+
+    .left-about img{
+        width: 330px;
+        margin-left: 30px;
+    }
+
+    .right-about button{
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+    .social-networks i{
+        font-size: 10px;
+    }
+
+
+    .social-networks{
+        width:100%;
+        margin-left:20px;
+        margin-top: 30px;
+    }
+
+}
 
 
