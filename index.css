@@ -7,6 +7,10 @@
     background-color: #2B2C2F;
 }
 
+::-webkit-scrollbar{
+    background-color:#2B2C2F;
+}
+
 
 /* Navbar */
 
@@ -142,15 +146,13 @@ nav{
 
 .left-about{
       text-align: center;
-      box-shadow: inset -3px -3px 7px #75707020, inset 3px 3px 5px rgba(9, 9, 9, 0.374);
-      padding: 15px;
       border-radius: 5px;
 }
 
 .left-about img{
     box-shadow: -3px -3px 7px #75707020, 3px 3px 5px rgba(0, 0, 0, 0.374);
-    border-radius: 5px;
-    padding: 12px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .right-about{
@@ -182,7 +184,7 @@ nav{
 }
 
 .social-networks{
-    margin-left: 26%;
+    margin-left: 22%;
     margin-top: -3%;
     margin-bottom: 50px;
 }
@@ -228,7 +230,7 @@ nav{
 
 .services-card{
     color: white;
-    margin: 5% 12%;
+    margin: 5% 20%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     gap: 30px;
@@ -378,6 +380,8 @@ nav{
     opacity: 70%;
     font-family: 'Poor Story', system-ui;
 }
+
+
 
 
 
